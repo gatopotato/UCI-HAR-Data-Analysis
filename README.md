@@ -27,5 +27,5 @@ This project demonstrates how to collect, work with, and clean a dataset. The fi
 
 1. Place the `run_analysis.R` script in your working directory.
 2. Run the script using `source("run_analysis.R")`.
-3. The tidy dataset `FinalData.txt` will be created in your working directory.
+3. The tidy dataset `data.txt` will be created in your working directory.
 
