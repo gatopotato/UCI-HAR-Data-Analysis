@@ -1,6 +1,6 @@
 ---
 title: "README.md"
-author: "Manya Verma"
+author: "Samkit Jaina"
 date: "2024-11-15"
 output: html_document
 ---
