@@ -1,4 +1,3 @@
-setwd("C:/Users/Admin/Downloads/getdata_projectfiles_UCI HAR Dataset/")
 library(dplyr)
 
 features <- read.table("UCI HAR Dataset/features.txt", col.names = c("n", "functions"))
@@ -36,5 +35,5 @@ names(tidy_data) <- gsub("BodyBody", "Body", names(tidy_data))
 final_data <- tidy_data %>%
   group_by(subject, activity) %>%
   summarise_all(list(mean = mean))
-write.table(final_data, "FinalData.txt", row.name = FALSE)
+write.table(final_data, "data.txt", row.name = FALSE)
 
